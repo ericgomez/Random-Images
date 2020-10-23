@@ -1,6 +1,8 @@
 package com.esgomez.randomimages
 
-class MainActivityViewModel {
+import androidx.lifecycle.ViewModel
+
+class MainActivityViewModel: ViewModel() {
 
     private var urlImage: String? = null
 
